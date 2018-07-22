@@ -20,6 +20,16 @@ contract Game is Ownable, PlayerModel, GameStages {
         _;
     }
 
+    modifier roundEnded() {
+        require(block.timestamp > endTime);
+        _;
+    }
+
+    modifier roundStarted() {
+        require(endTime != 0);
+        _;
+    }
+
     // -----------------------------------------
     // PUBLIC INTERFACE
 
@@ -35,7 +45,7 @@ contract Game is Ownable, PlayerModel, GameStages {
         _addPlayer(_address, _bid);
     }
 
-    function endGame() public returns(uint) {
+    function endGame() public roundEnded returns(uint) {
         uint fee = _getFee();
         uint prize = this.balance - fee;
         address winner = _getWinnerAddress();
@@ -51,7 +61,7 @@ contract Game is Ownable, PlayerModel, GameStages {
 
     function _startRound() internal {
         joinPrice = msg.value;
-        endTime = block.timestamp + 10 minutes;
+        endTime = block.timestamp + 3 minutes;
         nextStage();
     }
 
