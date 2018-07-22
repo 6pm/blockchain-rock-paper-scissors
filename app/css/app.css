@@ -1,0 +1,61 @@
+/* global styles */
+* {
+  outline: none;
+}
+button {
+  padding: 5px 20px;
+  text-transform: uppercase;
+  background: blue;
+  color: white;
+}
+main {
+  background: #eee;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.screen input, .screen select {
+  margin-bottom: 20px;
+  padding: 5px 15px;
+}
+/* ---------- */
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #ccc;
+  padding:  10px 40px;
+}
+.main-header h3, .main-header p {
+  margin: 0;
+}
+.game-info {
+  display: flex;
+  align-items: center;
+}
+.balance {
+  color: darkgoldenrod;
+  font-weight: bold;
+}
+.end-game {
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.screen {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 40px;
+  padding:  20px;
+  background: white;
+}
+
+.initial-bid:disabled {
+  font-size: 20px;
+  border-color: transparent;
+  color:  red;
+}
+
+.debug {
+  border: 3px solid red;
+  padding: 5px 20px;
+}

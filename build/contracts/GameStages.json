@@ -1,0 +1,1542 @@
+{
+  "contractName": "GameStages",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "stage",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "_stage",
+          "type": "uint8"
+        }
+      ],
+      "name": "atStage",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "nextStage",
+      "outputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "getStage",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "backToStartStage",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint8"
+        }
+      ],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608060405260008060006101000a81548160ff0219169083600181111561002257fe5b021790555034801561003357600080fd5b50610280806100436000396000f30060806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806333009c3d146100725780636008716a146100ba578063c040e6b8146100f3578063ee3743ab1461012c578063fcaa766414610143575b600080fd5b34801561007e57600080fd5b506100a0600480360381019080803560ff16906020019092919050505061017c565b604051808215151515815260200191505060405180910390f35b3480156100c657600080fd5b506100cf6101ba565b604051808260018111156100df57fe5b60ff16815260200191505060405180910390f35b3480156100ff57600080fd5b506101086101e1565b6040518082600181111561011857fe5b60ff16815260200191505060405180910390f35b34801561013857600080fd5b506101416101f3565b005b34801561014f57600080fd5b5061015861023e565b6040518082600181111561016857fe5b60ff16815260200191505060405180910390f35b600081600181111561018a57fe5b6000809054906101000a900460ff1660018111156101a457fe5b146101b05760006101b3565b60015b9050919050565b6000806000806101000a81548160ff021916908360018111156101d957fe5b021790555090565b6000809054906101000a900460ff1681565b60016000809054906101000a900460ff16600181111561020f57fe5b01600181111561021b57fe5b6000806101000a81548160ff0219169083600181111561023757fe5b0217905550565b60008060009054906101000a900460ff169050905600a165627a7a72305820c7f37e6e24bd451985e09b9886ac12378c072641ccb7b27efc414494c3ca3ee60029",
+  "deployedBytecode": "0x60806040526004361061006d576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806333009c3d146100725780636008716a146100ba578063c040e6b8146100f3578063ee3743ab1461012c578063fcaa766414610143575b600080fd5b34801561007e57600080fd5b506100a0600480360381019080803560ff16906020019092919050505061017c565b604051808215151515815260200191505060405180910390f35b3480156100c657600080fd5b506100cf6101ba565b604051808260018111156100df57fe5b60ff16815260200191505060405180910390f35b3480156100ff57600080fd5b506101086101e1565b6040518082600181111561011857fe5b60ff16815260200191505060405180910390f35b34801561013857600080fd5b506101416101f3565b005b34801561014f57600080fd5b5061015861023e565b6040518082600181111561016857fe5b60ff16815260200191505060405180910390f35b600081600181111561018a57fe5b6000809054906101000a900460ff1660018111156101a457fe5b146101b05760006101b3565b60015b9050919050565b6000806000806101000a81548160ff021916908360018111156101d957fe5b021790555090565b6000809054906101000a900460ff1681565b60016000809054906101000a900460ff16600181111561020f57fe5b01600181111561021b57fe5b6000806101000a81548160ff0219169083600181111561023757fe5b0217905550565b60008060009054906101000a900460ff169050905600a165627a7a72305820c7f37e6e24bd451985e09b9886ac12378c072641ccb7b27efc414494c3ca3ee60029",
+  "sourceMap": "25:543:5:-;;;167:17;145:39;;;;;;;;;;;;;;;;;;;;;;;;;;25:543;8:9:-1;5:2;;;30:1;27;20:12;5:2;25:543:5;;;;;;;",
+  "deployedSourceMap": "25:543:5:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;191:110;;8:9:-1;5:2;;;30:1;27;20:12;5:2;191:110:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;472:94;;8:9:-1;5:2;;;30:1;27;20:12;5:2;472:94:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;145:39;;8:9:-1;5:2;;;30:1;27;20:12;5:2;145:39:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;307:76;;8:9:-1;5:2;;;30:1;27;20:12;5:2;307:76:5;;;;;;389:77;;8:9:-1;5:2;;;30:1;27;20:12;5:2;389:77:5;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;191:110;239:4;272:6;263:15;;;;;;;;:5;;;;;;;;;;;:15;;;;;;;;;262:32;;289:5;262:32;;;282:4;262:32;255:39;;191:110;;;:::o;472:94::-;516:6;542:17;534:5;;:25;;;;;;;;;;;;;;;;;;;;;;;;472:94;:::o;145:39::-;;;;;;;;;;;;;:::o;307:76::-;374:1;365:5;;;;;;;;;;;360:11;;;;;;;;:15;353:23;;;;;;;;345:5;;:31;;;;;;;;;;;;;;;;;;;;;;;;307:76::o;389:77::-;425:6;450:5;;;;;;;;;;;443:12;;389:77;:::o",
+  "source": "pragma solidity 0.4.24;\n\ncontract GameStages {\n    enum Stages {\n        NotStarted,\n        Started\n    }\n    // This is the current stage.\n    Stages public stage = Stages.NotStarted;\n\n    function atStage(Stages _stage) public returns (bool) {\n        return (stage == _stage) ? true : false;\n    }\n\n    function nextStage() public {\n        stage = Stages(uint(stage) + 1);\n    }\n\n    function getStage() public returns (Stages) {\n        return stage;    \n    }\n\n    function backToStartStage() public returns (Stages) {\n        stage = Stages.NotStarted;\n    }\n}\n",
+  "sourcePath": "/Users/viacheslav.troian/projects/blockchain-rock-paper-scissors/contracts/GameStages.sol",
+  "ast": {
+    "absolutePath": "/Users/viacheslav.troian/projects/blockchain-rock-paper-scissors/contracts/GameStages.sol",
+    "exportedSymbols": {
+      "GameStages": [
+        841
+      ]
+    },
+    "id": 842,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 784,
+        "literals": [
+          "solidity",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 841,
+        "linearizedBaseContracts": [
+          841
+        ],
+        "name": "GameStages",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "GameStages.Stages",
+            "id": 787,
+            "members": [
+              {
+                "id": 785,
+                "name": "NotStarted",
+                "nodeType": "EnumValue",
+                "src": "73:10:5"
+              },
+              {
+                "id": 786,
+                "name": "Started",
+                "nodeType": "EnumValue",
+                "src": "93:7:5"
+              }
+            ],
+            "name": "Stages",
+            "nodeType": "EnumDefinition",
+            "src": "51:55:5"
+          },
+          {
+            "constant": false,
+            "id": 791,
+            "name": "stage",
+            "nodeType": "VariableDeclaration",
+            "scope": 841,
+            "src": "145:39:5",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_enum$_Stages_$787",
+              "typeString": "enum GameStages.Stages"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 788,
+              "name": "Stages",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 787,
+              "src": "145:6:5",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_Stages_$787",
+                "typeString": "enum GameStages.Stages"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "expression": {
+                "argumentTypes": null,
+                "id": 789,
+                "name": "Stages",
+                "nodeType": "Identifier",
+                "overloadedDeclarations": [],
+                "referencedDeclaration": 787,
+                "src": "167:6:5",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_enum$_Stages_$787_$",
+                  "typeString": "type(enum GameStages.Stages)"
+                }
+              },
+              "id": 790,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "lValueRequested": false,
+              "memberName": "NotStarted",
+              "nodeType": "MemberAccess",
+              "referencedDeclaration": null,
+              "src": "167:17:5",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_Stages_$787",
+                "typeString": "enum GameStages.Stages"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 806,
+              "nodeType": "Block",
+              "src": "245:56:5",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "condition": {
+                      "argumentTypes": null,
+                      "components": [
+                        {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_enum$_Stages_$787",
+                            "typeString": "enum GameStages.Stages"
+                          },
+                          "id": 800,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "argumentTypes": null,
+                            "id": 798,
+                            "name": "stage",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 791,
+                            "src": "263:5:5",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Stages_$787",
+                              "typeString": "enum GameStages.Stages"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "==",
+                          "rightExpression": {
+                            "argumentTypes": null,
+                            "id": 799,
+                            "name": "_stage",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 793,
+                            "src": "272:6:5",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Stages_$787",
+                              "typeString": "enum GameStages.Stages"
+                            }
+                          },
+                          "src": "263:15:5",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        }
+                      ],
+                      "id": 801,
+                      "isConstant": false,
+                      "isInlineArray": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "TupleExpression",
+                      "src": "262:17:5",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "falseExpression": {
+                      "argumentTypes": null,
+                      "hexValue": "66616c7365",
+                      "id": 803,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "289:5:5",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "false"
+                    },
+                    "id": 804,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "Conditional",
+                    "src": "262:32:5",
+                    "trueExpression": {
+                      "argumentTypes": null,
+                      "hexValue": "74727565",
+                      "id": 802,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "282:4:5",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 797,
+                  "id": 805,
+                  "nodeType": "Return",
+                  "src": "255:39:5"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 807,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "atStage",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 794,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 793,
+                  "name": "_stage",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 807,
+                  "src": "208:13:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_Stages_$787",
+                    "typeString": "enum GameStages.Stages"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 792,
+                    "name": "Stages",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 787,
+                    "src": "208:6:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "207:15:5"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 797,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 796,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 807,
+                  "src": "239:4:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 795,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "239:4:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "238:6:5"
+            },
+            "scope": 841,
+            "src": "191:110:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 820,
+              "nodeType": "Block",
+              "src": "335:48:5",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 818,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 810,
+                      "name": "stage",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 791,
+                      "src": "345:5:5",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Stages_$787",
+                        "typeString": "enum GameStages.Stages"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          },
+                          "id": 816,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "argumentTypes": null,
+                            "arguments": [
+                              {
+                                "argumentTypes": null,
+                                "id": 813,
+                                "name": "stage",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 791,
+                                "src": "365:5:5",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_enum$_Stages_$787",
+                                  "typeString": "enum GameStages.Stages"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_enum$_Stages_$787",
+                                  "typeString": "enum GameStages.Stages"
+                                }
+                              ],
+                              "id": 812,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "nodeType": "ElementaryTypeNameExpression",
+                              "src": "360:4:5",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_uint256_$",
+                                "typeString": "type(uint256)"
+                              },
+                              "typeName": "uint"
+                            },
+                            "id": 814,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "typeConversion",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "360:11:5",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "+",
+                          "rightExpression": {
+                            "argumentTypes": null,
+                            "hexValue": "31",
+                            "id": 815,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "374:1:5",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_rational_1_by_1",
+                              "typeString": "int_const 1"
+                            },
+                            "value": "1"
+                          },
+                          "src": "360:15:5",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        ],
+                        "id": 811,
+                        "name": "Stages",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 787,
+                        "src": "353:6:5",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Stages_$787_$",
+                          "typeString": "type(enum GameStages.Stages)"
+                        }
+                      },
+                      "id": 817,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "353:23:5",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Stages_$787",
+                        "typeString": "enum GameStages.Stages"
+                      }
+                    },
+                    "src": "345:31:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "id": 819,
+                  "nodeType": "ExpressionStatement",
+                  "src": "345:31:5"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 821,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "nextStage",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 808,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "325:2:5"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 809,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "335:0:5"
+            },
+            "scope": 841,
+            "src": "307:76:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 828,
+              "nodeType": "Block",
+              "src": "433:33:5",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 826,
+                    "name": "stage",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 791,
+                    "src": "450:5:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "functionReturnParameters": 825,
+                  "id": 827,
+                  "nodeType": "Return",
+                  "src": "443:12:5"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 829,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "getStage",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 822,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "406:2:5"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 825,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 824,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 829,
+                  "src": "425:6:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_Stages_$787",
+                    "typeString": "enum GameStages.Stages"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 823,
+                    "name": "Stages",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 787,
+                    "src": "425:6:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "424:8:5"
+            },
+            "scope": 841,
+            "src": "389:77:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 839,
+              "nodeType": "Block",
+              "src": "524:42:5",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 837,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 834,
+                      "name": "stage",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 791,
+                      "src": "534:5:5",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Stages_$787",
+                        "typeString": "enum GameStages.Stages"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 835,
+                        "name": "Stages",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 787,
+                        "src": "542:6:5",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Stages_$787_$",
+                          "typeString": "type(enum GameStages.Stages)"
+                        }
+                      },
+                      "id": 836,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "NotStarted",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "542:17:5",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Stages_$787",
+                        "typeString": "enum GameStages.Stages"
+                      }
+                    },
+                    "src": "534:25:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "id": 838,
+                  "nodeType": "ExpressionStatement",
+                  "src": "534:25:5"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 840,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "backToStartStage",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 830,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "497:2:5"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 833,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 832,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 840,
+                  "src": "516:6:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_Stages_$787",
+                    "typeString": "enum GameStages.Stages"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 831,
+                    "name": "Stages",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 787,
+                    "src": "516:6:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "515:8:5"
+            },
+            "scope": 841,
+            "src": "472:94:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 842,
+        "src": "25:543:5"
+      }
+    ],
+    "src": "0:569:5"
+  },
+  "legacyAST": {
+    "absolutePath": "/Users/viacheslav.troian/projects/blockchain-rock-paper-scissors/contracts/GameStages.sol",
+    "exportedSymbols": {
+      "GameStages": [
+        841
+      ]
+    },
+    "id": 842,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 784,
+        "literals": [
+          "solidity",
+          "0.4",
+          ".24"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:23:5"
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 841,
+        "linearizedBaseContracts": [
+          841
+        ],
+        "name": "GameStages",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "canonicalName": "GameStages.Stages",
+            "id": 787,
+            "members": [
+              {
+                "id": 785,
+                "name": "NotStarted",
+                "nodeType": "EnumValue",
+                "src": "73:10:5"
+              },
+              {
+                "id": 786,
+                "name": "Started",
+                "nodeType": "EnumValue",
+                "src": "93:7:5"
+              }
+            ],
+            "name": "Stages",
+            "nodeType": "EnumDefinition",
+            "src": "51:55:5"
+          },
+          {
+            "constant": false,
+            "id": 791,
+            "name": "stage",
+            "nodeType": "VariableDeclaration",
+            "scope": 841,
+            "src": "145:39:5",
+            "stateVariable": true,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_enum$_Stages_$787",
+              "typeString": "enum GameStages.Stages"
+            },
+            "typeName": {
+              "contractScope": null,
+              "id": 788,
+              "name": "Stages",
+              "nodeType": "UserDefinedTypeName",
+              "referencedDeclaration": 787,
+              "src": "145:6:5",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_Stages_$787",
+                "typeString": "enum GameStages.Stages"
+              }
+            },
+            "value": {
+              "argumentTypes": null,
+              "expression": {
+                "argumentTypes": null,
+                "id": 789,
+                "name": "Stages",
+                "nodeType": "Identifier",
+                "overloadedDeclarations": [],
+                "referencedDeclaration": 787,
+                "src": "167:6:5",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_type$_t_enum$_Stages_$787_$",
+                  "typeString": "type(enum GameStages.Stages)"
+                }
+              },
+              "id": 790,
+              "isConstant": false,
+              "isLValue": false,
+              "isPure": true,
+              "lValueRequested": false,
+              "memberName": "NotStarted",
+              "nodeType": "MemberAccess",
+              "referencedDeclaration": null,
+              "src": "167:17:5",
+              "typeDescriptions": {
+                "typeIdentifier": "t_enum$_Stages_$787",
+                "typeString": "enum GameStages.Stages"
+              }
+            },
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 806,
+              "nodeType": "Block",
+              "src": "245:56:5",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "condition": {
+                      "argumentTypes": null,
+                      "components": [
+                        {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_enum$_Stages_$787",
+                            "typeString": "enum GameStages.Stages"
+                          },
+                          "id": 800,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "argumentTypes": null,
+                            "id": 798,
+                            "name": "stage",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 791,
+                            "src": "263:5:5",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Stages_$787",
+                              "typeString": "enum GameStages.Stages"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "==",
+                          "rightExpression": {
+                            "argumentTypes": null,
+                            "id": 799,
+                            "name": "_stage",
+                            "nodeType": "Identifier",
+                            "overloadedDeclarations": [],
+                            "referencedDeclaration": 793,
+                            "src": "272:6:5",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_enum$_Stages_$787",
+                              "typeString": "enum GameStages.Stages"
+                            }
+                          },
+                          "src": "263:15:5",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_bool",
+                            "typeString": "bool"
+                          }
+                        }
+                      ],
+                      "id": 801,
+                      "isConstant": false,
+                      "isInlineArray": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "lValueRequested": false,
+                      "nodeType": "TupleExpression",
+                      "src": "262:17:5",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      }
+                    },
+                    "falseExpression": {
+                      "argumentTypes": null,
+                      "hexValue": "66616c7365",
+                      "id": 803,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "289:5:5",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "false"
+                    },
+                    "id": 804,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "nodeType": "Conditional",
+                    "src": "262:32:5",
+                    "trueExpression": {
+                      "argumentTypes": null,
+                      "hexValue": "74727565",
+                      "id": 802,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "kind": "bool",
+                      "lValueRequested": false,
+                      "nodeType": "Literal",
+                      "src": "282:4:5",
+                      "subdenomination": null,
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_bool",
+                        "typeString": "bool"
+                      },
+                      "value": "true"
+                    },
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "functionReturnParameters": 797,
+                  "id": 805,
+                  "nodeType": "Return",
+                  "src": "255:39:5"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 807,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "atStage",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 794,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 793,
+                  "name": "_stage",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 807,
+                  "src": "208:13:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_Stages_$787",
+                    "typeString": "enum GameStages.Stages"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 792,
+                    "name": "Stages",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 787,
+                    "src": "208:6:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "207:15:5"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 797,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 796,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 807,
+                  "src": "239:4:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_bool",
+                    "typeString": "bool"
+                  },
+                  "typeName": {
+                    "id": 795,
+                    "name": "bool",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "239:4:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_bool",
+                      "typeString": "bool"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "238:6:5"
+            },
+            "scope": 841,
+            "src": "191:110:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 820,
+              "nodeType": "Block",
+              "src": "335:48:5",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 818,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 810,
+                      "name": "stage",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 791,
+                      "src": "345:5:5",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Stages_$787",
+                        "typeString": "enum GameStages.Stages"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "arguments": [
+                        {
+                          "argumentTypes": null,
+                          "commonType": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          },
+                          "id": 816,
+                          "isConstant": false,
+                          "isLValue": false,
+                          "isPure": false,
+                          "lValueRequested": false,
+                          "leftExpression": {
+                            "argumentTypes": null,
+                            "arguments": [
+                              {
+                                "argumentTypes": null,
+                                "id": 813,
+                                "name": "stage",
+                                "nodeType": "Identifier",
+                                "overloadedDeclarations": [],
+                                "referencedDeclaration": 791,
+                                "src": "365:5:5",
+                                "typeDescriptions": {
+                                  "typeIdentifier": "t_enum$_Stages_$787",
+                                  "typeString": "enum GameStages.Stages"
+                                }
+                              }
+                            ],
+                            "expression": {
+                              "argumentTypes": [
+                                {
+                                  "typeIdentifier": "t_enum$_Stages_$787",
+                                  "typeString": "enum GameStages.Stages"
+                                }
+                              ],
+                              "id": 812,
+                              "isConstant": false,
+                              "isLValue": false,
+                              "isPure": true,
+                              "lValueRequested": false,
+                              "nodeType": "ElementaryTypeNameExpression",
+                              "src": "360:4:5",
+                              "typeDescriptions": {
+                                "typeIdentifier": "t_type$_t_uint256_$",
+                                "typeString": "type(uint256)"
+                              },
+                              "typeName": "uint"
+                            },
+                            "id": 814,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": false,
+                            "kind": "typeConversion",
+                            "lValueRequested": false,
+                            "names": [],
+                            "nodeType": "FunctionCall",
+                            "src": "360:11:5",
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_uint256",
+                              "typeString": "uint256"
+                            }
+                          },
+                          "nodeType": "BinaryOperation",
+                          "operator": "+",
+                          "rightExpression": {
+                            "argumentTypes": null,
+                            "hexValue": "31",
+                            "id": 815,
+                            "isConstant": false,
+                            "isLValue": false,
+                            "isPure": true,
+                            "kind": "number",
+                            "lValueRequested": false,
+                            "nodeType": "Literal",
+                            "src": "374:1:5",
+                            "subdenomination": null,
+                            "typeDescriptions": {
+                              "typeIdentifier": "t_rational_1_by_1",
+                              "typeString": "int_const 1"
+                            },
+                            "value": "1"
+                          },
+                          "src": "360:15:5",
+                          "typeDescriptions": {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        }
+                      ],
+                      "expression": {
+                        "argumentTypes": [
+                          {
+                            "typeIdentifier": "t_uint256",
+                            "typeString": "uint256"
+                          }
+                        ],
+                        "id": 811,
+                        "name": "Stages",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 787,
+                        "src": "353:6:5",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Stages_$787_$",
+                          "typeString": "type(enum GameStages.Stages)"
+                        }
+                      },
+                      "id": 817,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": false,
+                      "kind": "typeConversion",
+                      "lValueRequested": false,
+                      "names": [],
+                      "nodeType": "FunctionCall",
+                      "src": "353:23:5",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Stages_$787",
+                        "typeString": "enum GameStages.Stages"
+                      }
+                    },
+                    "src": "345:31:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "id": 819,
+                  "nodeType": "ExpressionStatement",
+                  "src": "345:31:5"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 821,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "nextStage",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 808,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "325:2:5"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 809,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "335:0:5"
+            },
+            "scope": 841,
+            "src": "307:76:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 828,
+              "nodeType": "Block",
+              "src": "433:33:5",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 826,
+                    "name": "stage",
+                    "nodeType": "Identifier",
+                    "overloadedDeclarations": [],
+                    "referencedDeclaration": 791,
+                    "src": "450:5:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "functionReturnParameters": 825,
+                  "id": 827,
+                  "nodeType": "Return",
+                  "src": "443:12:5"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 829,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "getStage",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 822,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "406:2:5"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 825,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 824,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 829,
+                  "src": "425:6:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_Stages_$787",
+                    "typeString": "enum GameStages.Stages"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 823,
+                    "name": "Stages",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 787,
+                    "src": "425:6:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "424:8:5"
+            },
+            "scope": 841,
+            "src": "389:77:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          },
+          {
+            "body": {
+              "id": 839,
+              "nodeType": "Block",
+              "src": "524:42:5",
+              "statements": [
+                {
+                  "expression": {
+                    "argumentTypes": null,
+                    "id": 837,
+                    "isConstant": false,
+                    "isLValue": false,
+                    "isPure": false,
+                    "lValueRequested": false,
+                    "leftHandSide": {
+                      "argumentTypes": null,
+                      "id": 834,
+                      "name": "stage",
+                      "nodeType": "Identifier",
+                      "overloadedDeclarations": [],
+                      "referencedDeclaration": 791,
+                      "src": "534:5:5",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Stages_$787",
+                        "typeString": "enum GameStages.Stages"
+                      }
+                    },
+                    "nodeType": "Assignment",
+                    "operator": "=",
+                    "rightHandSide": {
+                      "argumentTypes": null,
+                      "expression": {
+                        "argumentTypes": null,
+                        "id": 835,
+                        "name": "Stages",
+                        "nodeType": "Identifier",
+                        "overloadedDeclarations": [],
+                        "referencedDeclaration": 787,
+                        "src": "542:6:5",
+                        "typeDescriptions": {
+                          "typeIdentifier": "t_type$_t_enum$_Stages_$787_$",
+                          "typeString": "type(enum GameStages.Stages)"
+                        }
+                      },
+                      "id": 836,
+                      "isConstant": false,
+                      "isLValue": false,
+                      "isPure": true,
+                      "lValueRequested": false,
+                      "memberName": "NotStarted",
+                      "nodeType": "MemberAccess",
+                      "referencedDeclaration": null,
+                      "src": "542:17:5",
+                      "typeDescriptions": {
+                        "typeIdentifier": "t_enum$_Stages_$787",
+                        "typeString": "enum GameStages.Stages"
+                      }
+                    },
+                    "src": "534:25:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "id": 838,
+                  "nodeType": "ExpressionStatement",
+                  "src": "534:25:5"
+                }
+              ]
+            },
+            "documentation": null,
+            "id": 840,
+            "implemented": true,
+            "isConstructor": false,
+            "isDeclaredConst": false,
+            "modifiers": [],
+            "name": "backToStartStage",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 830,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "497:2:5"
+            },
+            "payable": false,
+            "returnParameters": {
+              "id": 833,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 832,
+                  "name": "",
+                  "nodeType": "VariableDeclaration",
+                  "scope": 840,
+                  "src": "516:6:5",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_enum$_Stages_$787",
+                    "typeString": "enum GameStages.Stages"
+                  },
+                  "typeName": {
+                    "contractScope": null,
+                    "id": 831,
+                    "name": "Stages",
+                    "nodeType": "UserDefinedTypeName",
+                    "referencedDeclaration": 787,
+                    "src": "516:6:5",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_enum$_Stages_$787",
+                      "typeString": "enum GameStages.Stages"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "515:8:5"
+            },
+            "scope": 841,
+            "src": "472:94:5",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 842,
+        "src": "25:543:5"
+      }
+    ],
+    "src": "0:569:5"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.4.24+commit.e67f0147.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "2.0.1",
+  "updatedAt": "2018-07-22T12:36:29.202Z"
+}

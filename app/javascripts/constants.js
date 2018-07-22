@@ -1,0 +1,4 @@
+export const GAME_NOT_STARTED = 'GAME_NOT_STARTED'
+export const GAME_STARTED = 'GAME_STARTED'
+export const GAME_WAIT_FOR_BID = 'GAME_WAIT_FOR_BID'
+export const GAME_ERROR = 'GAME_ERROR'
