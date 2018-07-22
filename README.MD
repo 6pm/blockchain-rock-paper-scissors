@@ -1,8 +1,9 @@
 ## Rock, Paper, Scissors blockchain game (in progress)
 
 ___
-solidity version - `0.4.24`
-web3 version - `1.0.0-beta.34`
+**solidity version** - `0.4.24`
+
+**web3 version** - `1.0.0-beta.34`
 ___
 
 #### Requirements
